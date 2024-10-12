@@ -22,8 +22,8 @@ int main(void)
     ptra = &a;
     ptrb = &b;
 
-    cout<<"ptra as assigned as a : "<<ptra<<endl;
-    cout<<"ptrb as assigned as b : "<<ptrb<<endl;
+    cout<<"ptra as assigned to a : "<<*ptra<<endl;
+    cout<<"ptrb as assigned to b : "<<*ptrb<<endl;
 
     return 0;
 }
