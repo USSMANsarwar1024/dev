@@ -1,0 +1,1 @@
+echo "This is from unit file at : %time% and date : %date%";

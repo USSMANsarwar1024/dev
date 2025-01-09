@@ -1,0 +1,1 @@
+echo "This is from deploy file at : %time% and date : %date%";
