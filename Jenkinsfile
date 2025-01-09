@@ -17,8 +17,9 @@ pipeline {
                         label "Window_Node"
                     }
                     steps {
+                        sh 'git config --global --add safe.directory D:/Jenkins-Agent/workspace/DevOps-Pipeline'
                         echo "Task-1 on agent"
-                    }
+                        }
                 }
 
                 stage('Test on Master') {
